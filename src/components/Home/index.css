@@ -1,0 +1,43 @@
+/* Write your CSS here */
+.home-container {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.team-card-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo-and-heading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+}
+
+.ipl-logo {
+  width: 32px;
+  height: 45px;
+}
+
+.main-heading {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 36px;
+  font-weight: bold;
+  padding-left: 15px;
+}
+
+.team-list-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  list-style-type: none;
+  margin: auto;
+  flex-wrap: wrap;
+}

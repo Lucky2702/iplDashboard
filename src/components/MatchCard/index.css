@@ -1,0 +1,39 @@
+/* Write your CSS here */
+.match-list-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #0f172a;
+  border-radius: 6px;
+  height: 300px;
+  width: 200px;
+  margin: 10px;
+  font-family: 'Bree Serif';
+}
+
+.opponent-logo {
+  width: 40px;
+  height: 70px;
+}
+
+.status {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.Won {
+  color: #18ed66;
+}
+
+.Lost {
+  color: #e31a1a;
+}
+
+.result {
+  color: #ffffff;
+  font-size: 12px;
+  text-align: center;
+  font-weight: 200;
+}
